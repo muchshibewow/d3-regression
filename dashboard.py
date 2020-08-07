@@ -162,4 +162,4 @@ def fun2(value1):
         return fig
 
 if __name__ == "__main__":
-    app.run_server(debug=False, port = 8080)
+    app.run_server(debug=False, host='0.0.0.0')

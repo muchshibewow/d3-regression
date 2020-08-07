@@ -26,7 +26,7 @@ conn = psycopg2.connect(
     password=connection_parameters['password']
     )
 
-with open(r'<insert path here>', encoding='utf-8') as f:
+with open(r'turkeydata.json', encoding='utf-8') as f:
     turkey_city = json.load(f)
 
 city_id_map = {}
